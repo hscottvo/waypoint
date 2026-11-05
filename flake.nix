@@ -43,8 +43,12 @@
               rustToolchain
               bacon
               cargo-nextest
+
+              nodejs
+              pnpm
+
               just
-              lefthook
+              prek
             ];
 
             RUST_SRC_PATH = "${rustToolchain}/lib/rustlib/src/rust/library";
